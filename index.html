@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<!--Deepank Chinnam-->
+<!--W1175796-->
+
+<html>
+<head>
+<title>Trivia Quiz!</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="grid.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body>
+
+<!--Main Container-->
+<div id="container">
+
+	<!-- Header -->
+	<header>
+		<div class="row">
+			<div class="col col-6">
+				<img src="logo.jpg" alt="logo" style="border-radius: 41px;height: auto;width: 27%;border:5px solid grey">
+			</div>
+			<div class="col col-6" id="name" style=	"align:center;color:#E8DBDB;font-size:60px;font-family:comic sans MS">
+				Trivia Quiz!
+			</div>
+		</div>
+	</header>
+
+
+	<!-- Title-->
+	<div class="row" id="title">
+		<div class ="col col-4" id="date">
+			Date
+		</div>
+		<div class ="col col-4" id="subject">
+			Subject
+		</div>
+		<div class ="col col-4" id="timer">
+			Timer
+		</div>
+	</div>
+
+	<!--Score-->
+
+	<div class="row" id="score">
+		<!-- <h3>Score:</h3> -->
+		<div class ="col col-6" id="right_container">
+			<div class="right">
+				<div class="content">
+					<p style="font-family:comic sans MS;font-size:22px">Right</p>
+					<p id="right" style="font-family:comic sans MS;font-size:25px">0</p>
+				</div>
+			</div>
+		</div>
+		<div class ="col col-6" id="wrong_container">
+			<div class="wrong">
+				<div class="content">
+					<p style="font-family:comic sans MS;font-size:22px">Wrong</p>
+					<p id="wrong" style="font-family:comic sans MS;font-size:25px">0</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!--Questions-->
+<h2 style="text-align:center">Question</h2>
+<div class="row" id="question_area">
+		<div id="input_answer">
+		</div>
+		<div id="multiple_choice">
+		</div>
+</div>
+
+	<!-- Control -->
+
+	<div class="row" id="control">
+		<br>
+		<br>
+		<br>
+		<div class="col col-4">
+			<button class="button"  id="start">
+				<b>Start</b>
+			</button>
+		</div>
+		<div class="col col-4">
+			<button class="button"  id="next">
+				<b>Next Question</b>
+			</button>
+		</div>
+		<div class="col col-4">
+			<button class="button"  id="quit">
+				<b>Quit</b>
+			</button>
+		</div>
+	</div>
+
+	<!-- Footer -->
+			<footer>
+				<p>Copyright 2016 | Designed by Deepank Chinnam</p>
+			</footer>
+</div>
+
+<script src="questions.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

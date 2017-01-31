@@ -1,0 +1,107 @@
+/*Deepank Chinnam
+W1175796*/
+
+#container{
+  background-color: #ffd3b6;
+}
+
+#logo{
+  border-radius: 41px;
+height: auto;
+width: 27%;
+}
+
+#name{
+  padding:60px;
+}
+
+#date{
+  color:black;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 20px;
+}
+
+#subject{
+  color:black;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 20px;
+}
+
+#timer{
+  color:black;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 20px;
+}
+
+
+#question_area{
+  width:40%;
+  margin: auto;
+  padding:30px;
+  background-color: #D6D3B6;
+  border-radius: 40px;
+
+}
+
+header{
+  background-color: #b62020;
+}
+
+/*#title{
+  background-color: #CFCCCC;
+}
+
+#score{
+  background-color: #CFCCCC;
+}*/
+
+#input_answer{
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#multiple_choice{
+font-family: "Arial Black", Gadget, sans-seri
+}
+
+.button {
+    background-color: #4a6084;
+    border: 2px solid #b62020;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width:100%;
+}
+
+footer{
+  background-color: #b62020;
+  color:#FCE4E4;
+  text-align: center;
+}
+
+
+.right, .wrong {
+	width: 140px;
+	height: 140px;
+	margin: auto auto;
+	font-size: 22px;
+  color: black;
+	border-radius: 50%;
+	border: 5px solid #b62020	;
+}
+
+.right .content, .wrong .content {
+	position: relative;
+	top: 10%;
+}
+
+.right{
+  background-color: #AAFFAA;
+}
+
+.wrong{
+  background-color: #fe8181;
+}
